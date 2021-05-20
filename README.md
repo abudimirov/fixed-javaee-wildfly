@@ -1,3 +1,11 @@
+Here is a fixed version of Application 
+======================================
+
+Before deployment please change your Wildfly Server settings here:
+
+lection-ejb-ear/pom.xml
+
+
 lection-ejb: Example Using Multiple Java EE 7 Technologies Deployed as an EAR
 ==============================================================================================
 Author: Pete Muir
