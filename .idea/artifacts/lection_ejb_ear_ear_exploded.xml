@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="lection-ejb-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/lection-ejb-ear/target/lection-ejb-ear</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>lection-ejb-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lection-ejb-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/lection-ejb-ear/target/lection-ejb-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/lection-ejb-ear/src/main/application" />
+      <element id="archive" name="lection-ejb-web.war">
+        <element id="artifact" artifact-name="lection-ejb-web:war exploded" />
+      </element>
+      <element id="archive" name="lection-ejb-ejb.jar">
+        <element id="artifact" artifact-name="lection-ejb-ejb:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar" output-file-name="javax.annotation-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar" output-file-name="jakarta.xml.bind-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar" output-file-name="jakarta.activation-api.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

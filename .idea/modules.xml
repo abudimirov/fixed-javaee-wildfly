@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lection-ejb.iml" filepath="$PROJECT_DIR$/lection-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lection-ejb-ear/lection-ejb-ear.iml" filepath="$PROJECT_DIR$/lection-ejb-ear/lection-ejb-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lection-ejb-ejb/lection-ejb-ejb.iml" filepath="$PROJECT_DIR$/lection-ejb-ejb/lection-ejb-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lection-ejb-web/lection-ejb-web.iml" filepath="$PROJECT_DIR$/lection-ejb-web/lection-ejb-web.iml" />
+    </modules>
+  </component>
+</project>
